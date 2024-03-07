@@ -1,0 +1,73 @@
+* cottages-styles.css */
+
+.cottage-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cottage-card img {
+    width: 100%; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.cottage-card:hover {
+    transform: translateY(-5px);
+}
+
+.cottage-card {
+    width: 300px;
+    margin: 20px auto; 
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.cottage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.cottage-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cottage-description {
+    color: #666;
+    margin-top: 10px;
+}
+
+.cottage-price {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.cottage-availability {
+    margin-top: 5px;
+    color: #777;
+}
+
+
+
+
+.cottage-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 20px; 
+}
